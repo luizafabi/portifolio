@@ -1,0 +1,73 @@
+/* Estilos gerais */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+    background-color: rgb(189, 196, 188);
+    margin: 60;
+    padding: 60;
+  }
+  
+  .container {
+    max-width: 20px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #000000;
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .project-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .project {
+    background-color: #B2C9BF;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .project:hover {
+    transform: translateY(5px);
+  }
+  
+  .project img {
+    width: 45%;
+    height: auto;
+  }
+  
+  .project .project-info {
+    padding: 5px;
+  }
+  
+  .project h3 {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .project p {
+    margin-bottom: 40px;
+  }
+  
+  .project a {
+    display: inline-block;
+    padding: 30px 30px;
+    background-color: #d2cbf0;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 50x;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project a:hover {
+    background-color: #000000;
+  }
